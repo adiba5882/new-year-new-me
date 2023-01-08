@@ -1,33 +1,186 @@
+/* first-section */
 body{
-    background-image:url("../images/banner/banner1.png");
+    background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size:100%;
 }
 .first-section{
-    font-family: sans-serif;
+    font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 800px;
+    font-weight: 700;
     font-size: 65px;
     line-height: 76px;
     text-align: right;
-    color:black;
+    color: #140101;
     margin-bottom: 130px;
-    padding-top:150px;
     padding-right: 150px;
+    padding-top: 150px;
 }
-.first-section-description{
+.first-section-pclass{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 40px;
+    margin-top: -40px;
 }
-.button-a{
-        color: #FFFFFF;
-        font-weight: 700;
-        font-size: 20px;
-        border: 0;
-        padding: 18px 35px;
-        height: 64px;
-        border-radius: 5px;
-        background: #FD6E0A;
+/* btn-style */
+.button-a {
+    background-color: rgb(224, 119, 33); 
+    color: black; 
+    border: 2px solid #ffffff;
+    border: none;
+    color: rgb(8, 13, 14);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .button-a:hover {
+    background-color: #008CBA;
+    color: white;
+  } 
+/* end-first-section */
+/* <!-- 2nd-section-start --> */
+.sec-section-style{
+    padding-top: 330px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* end-2nd-section-style */
+.failurText{
+    color: #151414;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px; 
+}
+#failurides-img{
+    margin-left: 206px;
+}
+.pText{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    width: 416px;
+}
+/* ----My Plans-section-start */
+#plans-txt{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414; 
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+.ilst-itams{
+    list-style: none;
+}
+.plans-div{
+    display: flex;
+    justify-content: space-evenly;   
+}
+.plans-div h1{
+    height: 35px;
+    left: 599px;
+    top: 2006px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+color: #151414;
+}
+.plans-div img{
+    margin-left: 50px;
+    left: 294px;
+    top: 1895px;
+}
+h4{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+color: #737272;
+}
+/* ----Plans-section-end */
+/* ----My grediant section start */
+.positive-mindset{ 
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+    background-image:linear-gradient(90deg, #69f55d 0%, rgba(0, 95, 172, 0) 100%),
+     url("../images/watch.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-left: 20%;
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+.positive-mindset h1{
+    padding-top: 60px;
+    padding-left: 60px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+#mindset-btn{
+    margin-bottom: 190px;
+    margin-left: 70px;
+    margin-top: 900px;
+}
+/* footer-start-style */
+footer{
+    margin-bottom: 0;
+}
+footer h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+footer small{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px
+}
+.footer-div{
+    display: flex;
+    background-color: #151414;
+    color: #FFFFFF;
+    justify-content: space-around;
+    padding-bottom: 130px; 
+}
+/* div-btn-style */
+footer button{  
+}
+#lest-btn{
+    padding: 10px;
+    padding-top:10px;
+    background-color: #151414;
+    
+    border: 1px solid white;
+    border-radius: 8px;
+}
+input{
+    color: color: #F3F3F3;
+    line-height: 21px;
+}
+.icons-footer{
+    font-size: 2em;
+    padding-top: 32px;  
 }
